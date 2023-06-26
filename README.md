@@ -1,5 +1,6 @@
 # Project ReadMe
-## 1.	Environment Setup: This project will use Ubuntu running on a Virtual Machine. The language used is Python, with emacs as the text editor.
+## 1.	Environment Setup: 
+This project will use Ubuntu running on a Virtual Machine. The language used is Python, with emacs as the text editor.
 a)	Installing VirtualBox to run Ubuntu was straightforward
 b)	Installing Ubuntu was very time consuming since it wouldn’t work at all and be stuck at the loading screen. Tinkering the settings eventually fixed it.
 c)	Learning terminal commands was not too hard, and the project does not use a lot of Terminal commands to begin with.
