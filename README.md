@@ -37,21 +37,20 @@ The A* algorithm is a popular pathfinding algorithm that uses heuristics to find
 That's the basic outline of implementing the A* algorithm. You can incorporate these steps into your code and customize it based on your specific requirements and graph representation.
 
 ## Pseudocode:
-OPEN //set of nodes to be evaluated
-CLOSED //set of nodes already evaluated
+
+OPEN  = set of nodes to be evaluated
+CLOSED = set of nodes already evaluated
+
 add start node to open
 loop
   current = node in POEN with lowest f-cost
   remove current from OPEN
   add current to CLOSED
-
   if current is the the target node // path has been found
     return
-
   foreach neighbour of the current node
     if neighbour is not traversible or neighbour is in CLOSED
       skip to the next neighbour
-
     if new path to neighbour is shorter OR neighbour is not in OPEN
       set f-cost of neighbour
       set parent of neighbour to current
