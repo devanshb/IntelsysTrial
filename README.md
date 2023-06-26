@@ -1,10 +1,10 @@
 # Project ReadMe
 ## 1.	Environment Setup: 
 This project will use Ubuntu running on a Virtual Machine. The language used is Python, with emacs as the text editor.
-a)	Installing VirtualBox to run Ubuntu was straightforward
-b)	Installing Ubuntu was very time consuming since it wouldn’t work at all and be stuck at the loading screen. Tinkering the settings eventually fixed it.
-c)	Learning terminal commands was not too hard, and the project does not use a lot of Terminal commands to begin with.
-d)	Installing and running the Python package and updated libraries/emacs through Terminal on Ubuntu was a very novel experience but reasonably straightforward.
+### a)	Installing VirtualBox to run Ubuntu was straightforward
+### b)	Installing Ubuntu was very time consuming since it wouldn’t work at all and be stuck at the loading screen. Tinkering the settings eventually fixed it.
+### c)	Learning terminal commands was not too hard, and the project does not use a lot of Terminal commands to begin with.
+### d)	Installing and running the Python package and updated libraries/emacs through Terminal on Ubuntu was a very novel experience but reasonably straightforward.
 ## 2.	Discovering PyGame
 It seemed important to review PyGame documentation before implementing algorithms, since both Python and PyGame are unfamiliar to me. The library already contains comprehensive function sets(modules) like draw, display, Rect that are used in the project.
 ### Pygame library functions used:
